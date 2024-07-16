@@ -15,3 +15,5 @@ steps:
           --max-instances=1 \
           --no-allow-unauthenticated \
           --set-env-vars instance=vote-instance,database=votes
+logsBucket: ${_BUCKET_NAME}
+serviceAccount: ${_SERVICE_ACCOUNT}
